@@ -1,0 +1,103 @@
+/* fonts */
+
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.438rem;
+
+}
+
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+
+
+:root {
+  /* Primary */
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+p, h2 {
+  margin: 0;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: start;
+}
+
+.product-card {
+  background-color: var(--white);
+  width: 21.438rem;
+  height: 38.188rem;
+  border-radius: 0.625rem;
+}
+
+picture img {
+  width: 343px;
+  height: 240px;
+  border-radius: 0.625rem 0.625rem 0 0;
+  object-fit: cover;
+}
+
+.product-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  gap: 1rem;
+  
+}
+
+hgroup .montserrat-500 {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: .313rem;
+  margin: 0;
+  line-height: auto;
+}
+
+hgroup .fraunces-700 {
+  font-size: 2rem;
+  color: var(--veryDarkBlue);
+  margin: 0;
+}
+
+p .montserrat-500 {
+  font-size: 0.875rem;
+}
+
+.product-prices {
+  display: flex;
+  align-items: center;
+  gap: 1.188rem;
+}
+
+.product-prices span {
+  color: var(--darkCyan);
+  font-size: 2rem; 
+}
+
+.product-add-to-cart {
+  background-color: var(--darkCyan);
+  color: var(--whiten);
+}
