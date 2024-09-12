@@ -24,9 +24,9 @@ const ProductCard = () => {
           <span className="fraunces-700">$149.99</span>
           <s className="montserrat-500">$169.99</s>
         </p>
-        <button className="prdocut-add-to-cart">
+        <button className="product-add-to-cart">
           <img src={pictureCart} alt=""/>
-          <span>Add to Cart</span>
+          <span className="montserrat-700">Add to Cart</span>
         </button>
       </div>
     </div>

@@ -6,7 +6,6 @@
   font-weight: 500;
   font-style: normal;
   line-height: 1.438rem;
-
 }
 
 .montserrat-700 {
@@ -24,7 +23,6 @@
   font-variation-settings: "SOFT" 0, "WONK" 0;
 }
 
-
 :root {
   /* Primary */
   --darkCyan: hsl(158, 36%, 37%);
@@ -36,7 +34,8 @@
   --white: hsl(0, 0%, 100%);
 }
 
-p, h2 {
+p,
+h2 {
   margin: 0;
 }
 
@@ -57,21 +56,21 @@ picture img {
   height: 240px;
   border-radius: 0.625rem 0.625rem 0 0;
   object-fit: cover;
+  display: block;
 }
 
 .product-content {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 1.5rem;
   gap: 1rem;
-  
 }
 
 hgroup .montserrat-500 {
   text-transform: uppercase;
   font-size: 0.75rem;
-  letter-spacing: .313rem;
+  letter-spacing: 0.313rem;
   margin: 0;
   line-height: auto;
 }
@@ -94,10 +93,20 @@ p .montserrat-500 {
 
 .product-prices span {
   color: var(--darkCyan);
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
-.product-add-to-cart {
+button {
   background-color: var(--darkCyan);
-  color: var(--whiten);
+  width: 18.438rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  span {
+    color: var(--white);
+  }
 }
