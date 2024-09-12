@@ -32,6 +32,9 @@
   --veryDarkBlue: hsl(212, 21%, 14%);
   --darkGrayishBlue: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
+
+  /* Hover */
+  --veryDarkCyan: hsl(158.4, 42%, 18%);
 }
 
 p,
@@ -109,4 +112,44 @@ button {
   span {
     color: var(--white);
   }
+}
+
+
+@media only screen and (min-width: 60rem) {
+  .product-card {
+    display:flex;
+    flex-direction: row;
+    width: 37.5rem;
+    height: 28.125rem;
+    border-radius:  0 0.625rem 0.625rem 0;
+  }
+
+  .product-img {
+    width: 50%;
+    height: 100%
+  }
+
+  picture img {
+    width: 18.75rem;
+    height: 28.125rem;
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+
+  .product-content {
+    width: 14.75rem;
+    height: 24.125rem;
+    padding: 2rem;
+  }
+
+  .product-add-to-cart {
+    width: 236px;
+    height: 48px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--veryDarkCyan);
+  }
+
 }
