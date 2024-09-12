@@ -37,9 +37,17 @@
   --veryDarkCyan: hsl(158.4, 42%, 18%);
 }
 
-p,
-h2 {
+p {
+  line-height: 1.642;
   margin: 0;
+  
+
+}
+
+h2 {
+  line-height: 1;
+  margin: 0;
+  padding-top: 1.25rem;
 }
 
 #root {

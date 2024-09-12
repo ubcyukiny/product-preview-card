@@ -20,3 +20,13 @@ body {
   min-height: 100vh;
   font-size: 0.875rem;
 }
+
+.hidden-heading {
+  font-size: 2em; 
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  border: 0;
+}

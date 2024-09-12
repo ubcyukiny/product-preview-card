@@ -14,7 +14,7 @@ const ProductCard = () => {
       </div>
       <div className="product-content">
         <hgroup className="product-title-group">
-          <p className="montserrat-500">perfume</p>
+          <span className="montserrat-500">perfume</span>
           <h2 className="fraunces-700">Gabrielle Essence Eau De Parfum</h2>
         </hgroup>
         <p className="montserrat-500">
